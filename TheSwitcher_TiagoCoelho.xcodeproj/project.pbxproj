@@ -14,6 +14,7 @@
 		1E5E96562A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96552A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.swift */; };
 		1E5E96602A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E965F2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift */; };
 		1E5E96622A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */; };
+		1E5E96732A099CBB00A80FC3 /* DivisionStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96722A099CBB00A80FC3 /* DivisionStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1E5E965B2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_TiagoCoelhoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5E965F2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoUITests.swift; sourceTree = "<group>"; };
 		1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E5E96722A099CBB00A80FC3 /* DivisionStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		1E5E96432A09988B00A80FC3 /* TheSwitcher_TiagoCoelho */ = {
 			isa = PBXGroup;
 			children = (
+				1E5E966F2A0998DB00A80FC3 /* TheSwitcher */,
+				1E5E966E2A0998C400A80FC3 /* TheSwitcherUI */,
 				1E5E96442A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift */,
-				1E5E96462A09988B00A80FC3 /* ContentView.swift */,
 				1E5E96482A09988C00A80FC3 /* Assets.xcassets */,
 				1E5E964A2A09988C00A80FC3 /* Preview Content */,
 			);
@@ -125,6 +128,38 @@
 				1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */,
 			);
 			path = TheSwitcher_TiagoCoelhoUITests;
+			sourceTree = "<group>";
+		};
+		1E5E966E2A0998C400A80FC3 /* TheSwitcherUI */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E96462A09988B00A80FC3 /* ContentView.swift */,
+				1E5E96722A099CBB00A80FC3 /* DivisionStateView.swift */,
+			);
+			path = TheSwitcherUI;
+			sourceTree = "<group>";
+		};
+		1E5E966F2A0998DB00A80FC3 /* TheSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E96712A0998F700A80FC3 /* Protocols */,
+				1E5E96702A0998EB00A80FC3 /* Model */,
+			);
+			path = TheSwitcher;
+			sourceTree = "<group>";
+		};
+		1E5E96702A0998EB00A80FC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E5E96712A0998F700A80FC3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +294,7 @@
 			files = (
 				1E5E96472A09988B00A80FC3 /* ContentView.swift in Sources */,
 				1E5E96452A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift in Sources */,
+				1E5E96732A099CBB00A80FC3 /* DivisionStateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
