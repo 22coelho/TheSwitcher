@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5E96452A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96442A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift */; };
+		1E5E96472A09988B00A80FC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96462A09988B00A80FC3 /* ContentView.swift */; };
+		1E5E96492A09988C00A80FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E96482A09988C00A80FC3 /* Assets.xcassets */; };
+		1E5E964C2A09988C00A80FC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E964B2A09988C00A80FC3 /* Preview Assets.xcassets */; };
+		1E5E96562A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96552A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.swift */; };
+		1E5E96602A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E965F2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift */; };
+		1E5E96622A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E5E96522A09988C00A80FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5E96392A09988B00A80FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5E96402A09988B00A80FC3;
+			remoteInfo = TheSwitcher_TiagoCoelho;
+		};
+		1E5E965C2A09988C00A80FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5E96392A09988B00A80FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5E96402A09988B00A80FC3;
+			remoteInfo = TheSwitcher_TiagoCoelho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5E96412A09988B00A80FC3 /* TheSwitcher_TiagoCoelho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSwitcher_TiagoCoelho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5E96442A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoApp.swift; sourceTree = "<group>"; };
+		1E5E96462A09988B00A80FC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E5E96482A09988C00A80FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E5E964B2A09988C00A80FC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E5E96512A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_TiagoCoelhoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5E96552A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoTests.swift; sourceTree = "<group>"; };
+		1E5E965B2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_TiagoCoelhoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5E965F2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoUITests.swift; sourceTree = "<group>"; };
+		1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5E963E2A09988B00A80FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E964E2A09988C00A80FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E96582A09988C00A80FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5E96382A09988B00A80FC3 = {
+			isa = PBXGroup;
+			children = (
+				1E5E96432A09988B00A80FC3 /* TheSwitcher_TiagoCoelho */,
+				1E5E96542A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests */,
+				1E5E965E2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests */,
+				1E5E96422A09988B00A80FC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E5E96422A09988B00A80FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E96412A09988B00A80FC3 /* TheSwitcher_TiagoCoelho.app */,
+				1E5E96512A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.xctest */,
+				1E5E965B2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5E96432A09988B00A80FC3 /* TheSwitcher_TiagoCoelho */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E96442A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift */,
+				1E5E96462A09988B00A80FC3 /* ContentView.swift */,
+				1E5E96482A09988C00A80FC3 /* Assets.xcassets */,
+				1E5E964A2A09988C00A80FC3 /* Preview Content */,
+			);
+			path = TheSwitcher_TiagoCoelho;
+			sourceTree = "<group>";
+		};
+		1E5E964A2A09988C00A80FC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E964B2A09988C00A80FC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E5E96542A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E96552A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.swift */,
+			);
+			path = TheSwitcher_TiagoCoelhoTests;
+			sourceTree = "<group>";
+		};
+		1E5E965E2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E965F2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift */,
+				1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */,
+			);
+			path = TheSwitcher_TiagoCoelhoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5E96402A09988B00A80FC3 /* TheSwitcher_TiagoCoelho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5E96652A09988C00A80FC3 /* Build configuration list for PBXNativeTarget "TheSwitcher_TiagoCoelho" */;
+			buildPhases = (
+				1E5E963D2A09988B00A80FC3 /* Sources */,
+				1E5E963E2A09988B00A80FC3 /* Frameworks */,
+				1E5E963F2A09988B00A80FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSwitcher_TiagoCoelho;
+			productName = TheSwitcher_TiagoCoelho;
+			productReference = 1E5E96412A09988B00A80FC3 /* TheSwitcher_TiagoCoelho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E5E96502A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5E96682A09988C00A80FC3 /* Build configuration list for PBXNativeTarget "TheSwitcher_TiagoCoelhoTests" */;
+			buildPhases = (
+				1E5E964D2A09988C00A80FC3 /* Sources */,
+				1E5E964E2A09988C00A80FC3 /* Frameworks */,
+				1E5E964F2A09988C00A80FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5E96532A09988C00A80FC3 /* PBXTargetDependency */,
+			);
+			name = TheSwitcher_TiagoCoelhoTests;
+			productName = TheSwitcher_TiagoCoelhoTests;
+			productReference = 1E5E96512A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E5E965A2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5E966B2A09988C00A80FC3 /* Build configuration list for PBXNativeTarget "TheSwitcher_TiagoCoelhoUITests" */;
+			buildPhases = (
+				1E5E96572A09988C00A80FC3 /* Sources */,
+				1E5E96582A09988C00A80FC3 /* Frameworks */,
+				1E5E96592A09988C00A80FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5E965D2A09988C00A80FC3 /* PBXTargetDependency */,
+			);
+			name = TheSwitcher_TiagoCoelhoUITests;
+			productName = TheSwitcher_TiagoCoelhoUITests;
+			productReference = 1E5E965B2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5E96392A09988B00A80FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1E5E96402A09988B00A80FC3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1E5E96502A09988C00A80FC3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1E5E96402A09988B00A80FC3;
+					};
+					1E5E965A2A09988C00A80FC3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1E5E96402A09988B00A80FC3;
+					};
+				};
+			};
+			buildConfigurationList = 1E5E963C2A09988B00A80FC3 /* Build configuration list for PBXProject "TheSwitcher_TiagoCoelho" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E5E96382A09988B00A80FC3;
+			productRefGroup = 1E5E96422A09988B00A80FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5E96402A09988B00A80FC3 /* TheSwitcher_TiagoCoelho */,
+				1E5E96502A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests */,
+				1E5E965A2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5E963F2A09988B00A80FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5E964C2A09988C00A80FC3 /* Preview Assets.xcassets in Resources */,
+				1E5E96492A09988C00A80FC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E964F2A09988C00A80FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E96592A09988C00A80FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5E963D2A09988B00A80FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5E96472A09988B00A80FC3 /* ContentView.swift in Sources */,
+				1E5E96452A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E964D2A09988C00A80FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5E96562A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5E96572A09988C00A80FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5E96622A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift in Sources */,
+				1E5E96602A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E5E96532A09988C00A80FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5E96402A09988B00A80FC3 /* TheSwitcher_TiagoCoelho */;
+			targetProxy = 1E5E96522A09988C00A80FC3 /* PBXContainerItemProxy */;
+		};
+		1E5E965D2A09988C00A80FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5E96402A09988B00A80FC3 /* TheSwitcher_TiagoCoelho */;
+			targetProxy = 1E5E965C2A09988C00A80FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E5E96632A09988C00A80FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E5E96642A09988C00A80FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E5E96662A09988C00A80FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheSwitcher_TiagoCoelho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coelhot.TheSwitcher-TiagoCoelho";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E5E96672A09988C00A80FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheSwitcher_TiagoCoelho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coelhot.TheSwitcher-TiagoCoelho";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E5E96692A09988C00A80FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coelhot.TheSwitcher-TiagoCoelhoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_TiagoCoelho.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheSwitcher_TiagoCoelho";
+			};
+			name = Debug;
+		};
+		1E5E966A2A09988C00A80FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coelhot.TheSwitcher-TiagoCoelhoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_TiagoCoelho.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheSwitcher_TiagoCoelho";
+			};
+			name = Release;
+		};
+		1E5E966C2A09988C00A80FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coelhot.TheSwitcher-TiagoCoelhoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSwitcher_TiagoCoelho;
+			};
+			name = Debug;
+		};
+		1E5E966D2A09988C00A80FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "coelhot.TheSwitcher-TiagoCoelhoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSwitcher_TiagoCoelho;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5E963C2A09988B00A80FC3 /* Build configuration list for PBXProject "TheSwitcher_TiagoCoelho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5E96632A09988C00A80FC3 /* Debug */,
+				1E5E96642A09988C00A80FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5E96652A09988C00A80FC3 /* Build configuration list for PBXNativeTarget "TheSwitcher_TiagoCoelho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5E96662A09988C00A80FC3 /* Debug */,
+				1E5E96672A09988C00A80FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5E96682A09988C00A80FC3 /* Build configuration list for PBXNativeTarget "TheSwitcher_TiagoCoelhoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5E96692A09988C00A80FC3 /* Debug */,
+				1E5E966A2A09988C00A80FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5E966B2A09988C00A80FC3 /* Build configuration list for PBXNativeTarget "TheSwitcher_TiagoCoelhoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5E966C2A09988C00A80FC3 /* Debug */,
+				1E5E966D2A09988C00A80FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E5E96392A09988B00A80FC3 /* Project object */;
+}
