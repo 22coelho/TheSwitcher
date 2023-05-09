@@ -8,46 +8,56 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showGreeting = true
+    @StateObject var viewModel = DivisionViewModel()
+    @State private var showingSheet = false
     
     var body: some View {
         NavigationView {
-            VStack() {
-                VStack {
+            VStack {
+                List($viewModel.divisions, id: \.id) { $division in
                     HStack {
-                        Text("Kitchen")
-                        Toggle("", isOn: $showGreeting)
-                    }
-                    Divider()
-                    HStack {
-                        Text("Living Room")
-                        Toggle("", isOn: $showGreeting)
-                    }
-                    Divider()
-                    HStack {
-                        Text("Master bedroom")
-                        Toggle("", isOn: $showGreeting)
-                    }
-                    Divider()
-                    HStack {
-                        Text("Guest's bedroom")
-                        Toggle("", isOn: $showGreeting)
-                    }
-                    Divider()
+                        ZStack {
+                            NavigationLink {
+                                DivisionStateView(division: division)
+                            } label: {
+                                EmptyView()
+                            }
+                            .buttonStyle(.plain)
+                            .opacity(0)
+                            .fixedSize()
+                            Text(division.name)
+                        }
+                        Toggle("", isOn: $division.isOn)
+                    }.padding(.vertical)
                 }
-                .padding()
+                .frame(maxWidth: .infinity)
+                .listStyle(.plain)
+                .scrollContentBackground(.hidden)
                 Spacer()
             }
             .navigationTitle("The Switcher App")
             .navigationBarTitleDisplayMode(.inline)
-            .toolbarBackground(Color.green, for: .navigationBar)
-            .toolbarBackground(.visible, for: .navigationBar)
-        }
+            .toolbarBackground(Color.green,
+                               for: .navigationBar)
+            .toolbarBackground(.visible,
+                               for: .navigationBar)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(role: .none) {
+                        showingSheet.toggle()
+                    } label: {
+                        Image(systemName: "plus")
+                    } .sheet(isPresented: $showingSheet) {
+                        AddDivisionModalView(viewModel: viewModel)
+                    }
+                }
+            }
+        }.accentColor(.black)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewModel: DivisionViewModel())
     }
 }

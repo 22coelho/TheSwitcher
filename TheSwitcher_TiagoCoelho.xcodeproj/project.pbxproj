@@ -15,6 +15,10 @@
 		1E5E96602A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E965F2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift */; };
 		1E5E96622A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */; };
 		1E5E96732A099CBB00A80FC3 /* DivisionStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E96722A099CBB00A80FC3 /* DivisionStateView.swift */; };
+		1EB9BB7C2A0A998300650E68 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9BB7B2A0A998300650E68 /* Division.swift */; };
+		1EB9BB7E2A0A9E4500650E68 /* DivisionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9BB7D2A0A9E4500650E68 /* DivisionViewModel.swift */; };
+		1EB9BB802A0AA68100650E68 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9BB7F2A0AA68100650E68 /* Theme.swift */; };
+		1ECE2FCE2A0AE9DF004AF68E /* AddDivisionModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECE2FCD2A0AE9DF004AF68E /* AddDivisionModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		1E5E965F2A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoUITests.swift; sourceTree = "<group>"; };
 		1E5E96612A09988C00A80FC3 /* TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_TiagoCoelhoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1E5E96722A099CBB00A80FC3 /* DivisionStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionStateView.swift; sourceTree = "<group>"; };
+		1EB9BB7B2A0A998300650E68 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		1EB9BB7D2A0A9E4500650E68 /* DivisionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionViewModel.swift; sourceTree = "<group>"; };
+		1EB9BB7F2A0AA68100650E68 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1ECE2FCD2A0AE9DF004AF68E /* AddDivisionModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDivisionModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,7 @@
 			children = (
 				1E5E96462A09988B00A80FC3 /* ContentView.swift */,
 				1E5E96722A099CBB00A80FC3 /* DivisionStateView.swift */,
+				1ECE2FCD2A0AE9DF004AF68E /* AddDivisionModalView.swift */,
 			);
 			path = TheSwitcherUI;
 			sourceTree = "<group>";
@@ -142,8 +151,9 @@
 		1E5E966F2A0998DB00A80FC3 /* TheSwitcher */ = {
 			isa = PBXGroup;
 			children = (
-				1E5E96712A0998F700A80FC3 /* Protocols */,
 				1E5E96702A0998EB00A80FC3 /* Model */,
+				1EB9BB7D2A0A9E4500650E68 /* DivisionViewModel.swift */,
+				1EB9BB7F2A0AA68100650E68 /* Theme.swift */,
 			);
 			path = TheSwitcher;
 			sourceTree = "<group>";
@@ -151,15 +161,9 @@
 		1E5E96702A0998EB00A80FC3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1EB9BB7B2A0A998300650E68 /* Division.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1E5E96712A0998F700A80FC3 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5E96472A09988B00A80FC3 /* ContentView.swift in Sources */,
+				1EB9BB7E2A0A9E4500650E68 /* DivisionViewModel.swift in Sources */,
+				1ECE2FCE2A0AE9DF004AF68E /* AddDivisionModalView.swift in Sources */,
 				1E5E96452A09988B00A80FC3 /* TheSwitcher_TiagoCoelhoApp.swift in Sources */,
+				1EB9BB802A0AA68100650E68 /* Theme.swift in Sources */,
+				1EB9BB7C2A0A998300650E68 /* Division.swift in Sources */,
 				1E5E96732A099CBB00A80FC3 /* DivisionStateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
